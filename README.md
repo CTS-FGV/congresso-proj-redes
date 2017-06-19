@@ -1,35 +1,35 @@
 # cn-rede
 
-Desenvolvimento de um framework de redes mulilayer temporais para análise do congresso nacional <sup>[1](#myfootnote1)</sup>. O framework tem como características desejadas a modularidade, robustez e simplicidade. *Modularidade* pois permite a adição de novas redes sem perda de generalidade; *Robustez* por ser independente do tempo e de eventuais mudanças pontuais na estrutura organizacional do Congresso Nacional; e *Simplicidade* por buscar ter poucas premissas iniciais. 
+Development of a framework of temporal mulilayer networks for analysis of the national congress <sup> [1] (# myfootnote1) </ sup>. The framework has as desired characteristics the modularity, robustness and simplicity. * Modularity * because it allows the addition of new networks without loss of generality; * Robustness * because it is independent of time and occasional changes in the organizational structure of the National Congress; And * Simplicity * for seeking to have few initial premises.
 
-A estrutura básica da rede tem nós como parlamentares e arestas relacionadas ao banco de dados. Por exemplo, no caso das Espécies Legislativas, as arestas existirão se os parlamentares atuaram na mesma lei.
+The basic structure of the network has nodes as parliamentarians and database-related edges. For instance, in the case of *Law Proposals*, the edges will exist if the parliamentarians have acted in the same law.
 
-### Objetivos
+### Goals
 
-1. Analisar a estrutura macro da rede como as propriedades:
-  - Tipo de rede (Random, Tree...)
-  - Propriedades (Small World ...)
-2. Encontrar subgrupos de parlamentares com atuação conjunta
-  - Usar framework do paper em refrência para análise dos cores e dinâmica social <sup>[2](#myfootnote2)</sup>
-  - Identificar se subgrupos são temáticos: Saúde, Educação...
-3. Analisar importância e centralidade dos congressistas
-  - Usar medidas de centralidade como PageRank, CI,... <sup>[3](#myfootnote3)</sup>
-  - Identificar temas mais importantes para congressista e sua relevância no tema.
+1. Analyze the macro structure of the network as the properties:
+  - Type of network (Random, Tree ...)
+  - Properties (Small World ...)
+2. Finding subgroups of parliamentarians working together
+  - Use the paper framework in reference to color analysis and social dynamics. [2] (# myfootnote2) </ sup>
+  - Identify if subgroups are thematic: Health, Education ...
+3. Analyze the importance and centrality of the congressmen
+  - Use centrality measures like PageRank, CI, ... <sup> [3] (# myfootnote3) </ sup>
+  - Identify topics that are more important for the congressman and their relevance in the theme.
  
-### Bases de Dados 
+### Data base
 
-Algumas bases de dados podem ser usadas como indicadores de atividade parlamentar. Escolhemos duas delas (em negrito) para testar o modelo devido sua usabilidade e acessibilidade. Também, porque são dados atualizados com alta frequência, permitindo previsões do modelo no curto prazo.
+Some databases can be used as indicators of parliamentary activity. We chose two of them (in bold) to test the model due to its usability and accessibility. Also, the data is updated with high frequency which allows forecasts of a model in a short term period.
 
-- **Especies Legislativas** <sup>[4](#myfootnote4)</sup>
-- **Votações em Plenário**
-- Eventos
-- Partidos
-- Frentes Parlamentares
-- Blocos
+- ** Law Proposals ** <sup> [4] (# myfootnote4) </ sup>
+- ** Roll Call **
+- Events
+- Matches
+- Parliamentary Fronts
+- Blocks
 - Twitter
 - UF
-- Gastos
-- Financiamento de Campanha
+- Spending
+- Campaign Funding
   
 
 <a name="myfootnote1">1</a>: K. Wehmuth, ??ric Fleury, and A. Ziviani, “Multi aspect graphs: Algebraic representation and algorithms,” Algorithms, vol. 10, no. 1, pp. 1–59, 2017.
