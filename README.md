@@ -9,8 +9,10 @@ Desenvolvimento de um framework de redes mulilayer temporais para análise do co
   - Propriedades (Small World ...)
 2. Encontrar subgrupos de parlamentares com atuação conjunta
   - Usar framework do paper em refrência para análise dos cores e dinâmica social <sup>[2](#myfootnote2)</sup>
+  - Identificar se subgrupos são temáticos: Saúde, Educação...
 3. Analisar importância e centralidade dos congressistas
   - Usar medidas de centralidade como PageRank, CI,... <sup>[3](#myfootnote3)</sup>
+  - Identificar temas mais importantes para congressista e sua relevância no tema.
  
 ### Bases de Dados 
 
