@@ -2,6 +2,8 @@
 
 Desenvolvimento de um framework de redes mulilayer temporais para análise do congresso nacional <sup>[1](#myfootnote1)</sup>. O framework tem como características desejadas a modularidade, robustez e simplicidade. *Modularidade* pois permite a adição de novas redes sem perda de generalidade; *Robustez* por ser independente do tempo e de eventuais mudanças pontuais na estrutura organizacional do Congresso Nacional; e *Simplicidade* por buscar ter poucas premissas iniciais. 
 
+A estrutura básica da rede tem nós como parlamentares e arestas relacionadas ao banco de dados. Por exemplo, no caso das Espécies Legislativas, as arestas existirão se os parlamentares atuaram na mesma lei.
+
 ### Objetivos
 
 1. Analisar a estrutura macro da rede como as propriedades:
