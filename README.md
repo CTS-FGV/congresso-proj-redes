@@ -1,6 +1,6 @@
 # cn-rede
 
-Development of a framework of temporal mulilayer networks for analysis of the national congress <sup>[1](#myfootnote1)</sup>. The framework has as desired characteristics the modularity, robustness and simplicity. * Modularity * because it allows the addition of new networks without loss of generality; * Robustness * because it is independent of time and occasional changes in the organizational structure of the National Congress; And * Simplicity * for seeking to have few initial premises.
+Development of a framework of temporal mulilayer networks for analysis of the national congress <sup>[1](#myfootnote1)</sup><sup>[5](#myfootnote5)</sup>. The framework has as desired characteristics the modularity, robustness and simplicity. * Modularity * because it allows the addition of new networks without loss of generality; * Robustness * because it is independent of time and occasional changes in the organizational structure of the National Congress; And * Simplicity * for seeking to have few initial premises.
 
 The basic structure of the network has nodes as parliamentarians and database-related edges. For instance, in the case of *Law Proposals*, the edges will exist if the parliamentarians have acted in the same law.
 
@@ -39,3 +39,6 @@ Some databases can be used as indicators of parliamentary activity. We chose two
 <a name="myfootnote3">3</a>: S. Luo, F. Morone, C. Sarraute, M. Travizano, and H. A. Makse, “Inferring Personal Economic Status from Social Network Location,” Nat. Commun., no. May, pp. 1–7, 2017.
 
 <a name="myfootnote4">4</a>: W. K. Tam Cho and J. H. Fowler, “Legislative Success in a Small World: Social Network Analysis and the Dynamics of Congressional Legislation,” J. Polit., vol. 72, no. 1, pp. 124–135, 2010.
+
+
+<a name="myfootnote5">5</a>: K. Wehmuth, É. Fleury, and A. Ziviani, “On MultiAspect graphs,” Theor. Comput. Sci., vol. 651, pp. 50–61, 2016.
